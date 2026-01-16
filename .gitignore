@@ -1,0 +1,12 @@
+node_modules/
+*.log
+.DS_Store
+
+# Test/utility scripts with hardcoded paths
+test-exif.js
+verify-duplicates.js
+check-file-validity.js
+fix-extensions.js
+
+# Old monolithic version
+snapchat-cleanup.js

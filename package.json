@@ -1,0 +1,32 @@
+{
+  "name": "snapchat-cleanup",
+  "version": "1.0.0",
+  "description": "Interactive CLI tool to organize and clean up Snapchat Memories exports",
+  "main": "cli.js",
+  "bin": {
+    "snapchat-cleanup": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "snapchat",
+    "cleanup",
+    "memories",
+    "photos",
+    "organize"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "commander": "^14.0.2",
+    "exifreader": "^4.36.0",
+    "fs-extra": "^11.3.3",
+    "glob": "^13.0.0",
+    "inquirer": "^8.2.6",
+    "md5-file": "^5.0.0"
+  }
+}
