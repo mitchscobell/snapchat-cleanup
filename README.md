@@ -181,4 +181,6 @@ node /path/to/cleanup/cli.js
 
 ## License
 
+MIT License - do whatever you want with this code.
+
 ISC
